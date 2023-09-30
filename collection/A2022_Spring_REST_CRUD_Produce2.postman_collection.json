@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "24090624-5cd0-4d6f-bba4-81b45c295101",
+		"name": "A2022_Spring_REST_CRUD_Produce2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29781038"
+	},
+	"item": [
+		{
+			"name": "student add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_CRUD_Produce2/register/add?id=2&name=jhon&add=KADIRI",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_CRUD_Produce2",
+						"register",
+						"add"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "name",
+							"value": "jhon"
+						},
+						{
+							"key": "add",
+							"value": "KADIRI"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view all students",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_CRUD_Produce2/register/view",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_CRUD_Produce2",
+						"register",
+						"view"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
